@@ -30,7 +30,7 @@ export const AuthProvider = ({ children }) => {
     const userAuthentication = async() =>{
         try {
             setIsLoading(true);
-            const response = await fetch(`http://localhost:3000/api/auth/user` , {
+            const response = await fetch(`${URL}/api/auth/user` , {
                 method: "GET",
                 headers: {
                   Authorization: authorizationToken,
@@ -62,7 +62,7 @@ const getServices = async() => {
     try {
         const response = await 
         fetch(
-            "http://localhost:3000/api/data/service" , {
+            `${URL}/api/data/service` , {
              method: "GET",
             });
         if(response.ok){

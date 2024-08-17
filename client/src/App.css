@@ -1,0 +1,76 @@
+
+body {
+  background-color: #121212; 
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #212E52; 
+  color: #e0e0e0;
+}
+
+/* NavLink Styles */
+.navbar a {
+  color: #e0e0e0; 
+}
+
+.navbar a:hover {
+  color: #bb86fc; 
+}
+
+/* Button Styles */
+button {
+  background-color: #212E52; 
+  color: #e0e0e0; 
+  border: 1px solid #555; 
+}
+
+button:hover {
+  background-color: #444; 
+}
+
+/* Content Sections */
+section, .container {
+  background-color: #212E52;
+  color: #e0e0e0; 
+}
+
+/* Form Elements */
+input, textarea {
+  background-color:#212E52; 
+  color: #e0e0e0;
+  border: 1px solid #555; 
+}
+
+input::placeholder, textarea::placeholder {
+  color: #888; /* Placeholder text color */
+}
+
+input:focus, textarea:focus {
+  border-color: #bb86fc;
+}
+
+/* Links */
+a {
+  color: #bb86fc; 
+}
+
+a:hover {
+  color: #8c52ff; 
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  color: #e0e0e0; 
+}
+
+/* Cards or Containers */
+.card, .box {
+  background-color: #212E52;
+  color: #e0e0e0;
+  border: 1px solid #333;
+}

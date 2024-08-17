@@ -1,0 +1,26 @@
+.not-admin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .not-admin-image {
+    max-width: 500px;
+    margin-bottom: 15px;
+  }
+  
+  .back-home-link {
+    margin-top: 15px;
+    font-size: 28px;
+    color: #5586ed;
+    text-decoration: none;
+  }
+  
+  .back-home-link:hover {
+    color: #7abaff;
+  
+  }
+  

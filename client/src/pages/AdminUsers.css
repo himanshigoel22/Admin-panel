@@ -1,0 +1,42 @@
+.admin-users-container {
+    padding: 20px;
+    background-color: #010a1c;
+    color: #ffffff; 
+    height: 100vh;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .users-table th, .users-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #878787; 
+  }
+  
+  .edit-button {
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  .edit-button:hover, .delete-button:hover {
+    opacity: 0.8; 
+  }
+  

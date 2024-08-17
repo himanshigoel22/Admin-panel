@@ -1,0 +1,37 @@
+.services-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.service-card {
+  border: 1px solid #4a4a4a;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.service-card h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.service-card p {
+  margin: 5px 0;
+}
+
+  

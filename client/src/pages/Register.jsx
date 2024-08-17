@@ -48,8 +48,8 @@ const Register = () => {
   };
   
   return (
-    <div className="form">
-      <div className="form-container">
+   
+      <div className="contact-container">
       <div className="contact-image">
         <img src={imageLog} alt="Contact Us" />
       </div>
@@ -93,7 +93,6 @@ const Register = () => {
         </form>
       </div>
       </div>
-    </div>
   );
 };
 
